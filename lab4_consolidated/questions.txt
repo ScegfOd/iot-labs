@@ -1,0 +1,21 @@
+// Group 1
+// Solmaz Hashemzadeh
+// Jonathan Combs
+
+1.What is the difference between LoRa and LoRaWAN?
+LoRa contains only the link layer protocol. LoRaWAN has application layer stuff.
+
+2.Does the library referenced in Section 3 implement LoRaWAN?
+No, just the link layer stuff.
+
+3.Is it possible to send and receive at the same time using the provided LoRa library?
+No, but we can send and recieve in turns.
+
+4.How far are you able to transmit using the provided antenna?  Provide the location tested.
+From the dining area in front of Einstein Bros Bagels to the top of the outside stairs NW of the Valley Business & Technology Center
+
+5.How far are you able to transmit without using the antenna? Provide the location tested.
+About a meter
+
+6.For the soil moisture node you created, you make a measurement every 5 seconds.  What could you do to make the node as energy efficient as possible?
+Put the node to sleep between transmissions.
